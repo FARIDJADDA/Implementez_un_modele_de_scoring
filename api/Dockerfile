@@ -1,1 +1,0 @@
-# Containeriser l'application API.
