@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Farid/Documents/OC/Cursus_Data_Scientist/P7/notebooks/../mlruns/313886723643097310/90c27069f2974908a81f7c844c9a5aef/artifacts
+end_time: 1718825794876
+entry_point_name: ''
+experiment_id: '313886723643097310'
+lifecycle_stage: active
+run_id: 90c27069f2974908a81f7c844c9a5aef
+run_name: Optimized XGBoost with SMOTE and Fixed Thresholds Large
+run_uuid: 90c27069f2974908a81f7c844c9a5aef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718806520635
+status: 3
+tags: []
+user_id: Farid
