@@ -1,5 +1,5 @@
 artifact_uri: file:///C:/Users/Farid/Documents/OC/Cursus_Data_Scientist/P7/notebooks/../mlruns/313886723643097310/8f04026f8ae64d44a20906ea9a56958d/artifacts
-end_time: null
+end_time: 1718855872427
 entry_point_name: ''
 experiment_id: '313886723643097310'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1718848003650
-status: 1
+status: 3
 tags: []
 user_id: Farid
