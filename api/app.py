@@ -1,0 +1,1 @@
+# Script principal de l'API Flask.
