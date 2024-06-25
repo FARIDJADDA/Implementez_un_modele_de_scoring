@@ -1,1 +1,0 @@
-# Tests unitaires pour les scripts de préparation des données.

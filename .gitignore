@@ -1,9 +1,37 @@
-__pycache__/
+# Environments
+myenv/
+*.venv/
+*.env/
+
+# Python
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-*.sqlite
-.DS_Store
-.env
+.Python
 
-data/
+# Data
+data/raw/
+data/processed/
+output/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MLflow
+mlruns/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Log files
+*.log
+
+# Others
+.env
