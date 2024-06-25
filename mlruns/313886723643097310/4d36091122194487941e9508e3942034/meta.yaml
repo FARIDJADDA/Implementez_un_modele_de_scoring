@@ -1,0 +1,17 @@
+artifact_uri: file:///C:/Users/Farid/Documents/OC/Cursus_Data_Scientist/P7/notebooks/../mlruns/313886723643097310/4d36091122194487941e9508e3942034/artifacts
+deleted_time: 1719260604102
+end_time: 1719246041136
+entry_point_name: ''
+experiment_id: '313886723643097310'
+lifecycle_stage: deleted
+run_id: 4d36091122194487941e9508e3942034
+run_name: Optimized XGBoost with class_weight, Fixed Thresholds and Fixed metrics
+  log
+run_uuid: 4d36091122194487941e9508e3942034
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719238134041
+status: 3
+tags: []
+user_id: Farid

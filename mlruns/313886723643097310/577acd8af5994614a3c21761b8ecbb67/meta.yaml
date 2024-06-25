@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/Farid/Documents/OC/Cursus_Data_Scientist/P7/notebooks/../mlruns/313886723643097310/577acd8af5994614a3c21761b8ecbb67/artifacts
+deleted_time: 1719260604104
+end_time: 1719237599498
+entry_point_name: ''
+experiment_id: '313886723643097310'
+lifecycle_stage: deleted
+run_id: 577acd8af5994614a3c21761b8ecbb67
+run_name: Dummy Classifier
+run_uuid: 577acd8af5994614a3c21761b8ecbb67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719237415234
+status: 3
+tags: []
+user_id: Farid
