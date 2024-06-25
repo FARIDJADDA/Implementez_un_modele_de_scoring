@@ -11,12 +11,17 @@ from src.predict_model import load_model, predict, load_pipeline, load_feature_n
 
 app = Flask(__name__)
 
+# Charger le pipeline de prétraitement, le modèle et les noms de caractéristiques
 pipeline = load_pipeline()
 model = load_model()
 feature_names = load_feature_names()
 
 @app.route('/predict', methods=['POST'])
 def predict_endpoint():
+    """
+    Point de terminaison pour obtenir les prédictions du modèle.
+    Reçoit des données en format JSON, les prétraite, puis renvoie les prédictions et les probabilités.
+    """
     data = request.get_json(force=True)
     
     # Debug log pour afficher les données reçues

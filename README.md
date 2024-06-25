@@ -38,3 +38,48 @@ Effectivement, si un modèle de ML réussit à avoir un impact métier fort dans
 
 
 L’ensemble des pratiques et raisonnements qui impactent le cycle de vie d’un modèle est souvent groupé sous le terme MLOps (Machine Learning Operations) qui se démocratise de plus en plus dans la communauté Data Science et dans les prérequis des fiches de postes. En somme, il ne suffit plus aujourd'hui d’avoir la capacité de créer des modèles, il faut également avoir les compétences techniques pour les rendre accessibles à l'échelle et de les faire vivre dans le temps, faute de quoi votre modèle cessera d’avoir l’impact métier positif qu’il a eu initialement dans votre entreprise.
+
+# Structure des dossiers
+
+Le projet est structuré de la manière suivante :
+
+Projet_7/
+├── .github/workflows/ # Contient les workflows GitHub Actions pour CI/CD
+│ ├── cd.yml
+│ ├── ci.yml
+│ └── deploy.yml
+├── api/ # Contient l'API Flask
+│ ├── app.py
+│ └── requirements_api.txt
+├── data/ # Contient les données
+│ ├── raw/ # Données brutes
+│ └── processed/ # Données traitées
+├── docs/ # Documentation
+├── mlruns/ # Suivi des expérimentations avec MLflow
+├── models/ # Modèles et préprocesseurs sauvegardés
+│ ├── best_model_v2.joblib
+│ ├── feature_names.txt
+│ └── preprocessor.joblib
+├── notebooks/ # Notebooks Jupyter pour l'analyse exploratoire, le feature engineering et la modélisation
+│ ├── Analyse_exploratoire.ipynb
+│ ├── feature_engineering.ipynb
+│ ├── modélisation.ipynb
+│ └── data_drift_evidently.ipynb
+├── output/ # Résultats des modèles et des expérimentations
+├── src/ # Scripts sources pour le projet
+│ ├── init.py
+│ ├── predict_model.py
+├── test/ # Tests unitaires et d'intégration
+├── .gitignore # Fichiers et dossiers à ignorer par Git
+├── requirements.txt # Liste des packages nécessaires pour le projet
+└── README.md # Description du projet et guide de démarrage
+
+## Dossier test/
+Les tests couvrent une variété de cas importants, y compris les vérifications de l'intégrité des données, les prédictions du modèle et la communication avec l'API. Voici un récapitulatif de ce qui est couvert par les tests :
+
+Vérification des chemins et de l'existence des fichiers (test_api_chemin.py)
+Tests avec des valeurs extrêmes (test_api_with_extreme_cases.py)
+Tests avec de nouveaux échantillons (test_api_with_new_sample.py)
+Tests avec divers échantillons (test_api_with_various_samples.py)
+Vérification de l'intégrité des données (test_data_integrity.py)
+Tests de prédictions du modèle (test_model.py)
