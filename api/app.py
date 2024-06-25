@@ -1,8 +1,9 @@
 import sys
 import os
 import numpy as np
-from flask import Flask, request, jsonify
+from flask import (Flask, request, jsonify)
 import pandas as pd
+
 
 # Ajouter le chemin src au sys.path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -53,4 +54,4 @@ def predict_endpoint():
 
 if __name__ == '__main__':
     print("Starting Flask app...")
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=5000)
