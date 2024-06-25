@@ -16,6 +16,10 @@ pipeline = load_pipeline()
 model = load_model()
 feature_names = load_feature_names()
 
+@app.route('/')
+def index():
+    return "Hello, this is the ML API!"
+
 @app.route('/predict', methods=['POST'])
 def predict_endpoint():
     """

@@ -33,7 +33,7 @@ sample_data_json = pd.DataFrame(sample_data_preprocessed, columns=feature_names)
 # Afficher le JSON
 print("Sample Data JSON:", sample_data_json)
 
-# URL de l'API déployée sur Azure
+# URL de l'API
 url = "https://my-ml-api-app.azurewebsites.net/predict"
 
 # Envoyer la requête POST à l'API
